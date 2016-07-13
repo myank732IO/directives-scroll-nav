@@ -1,0 +1,131 @@
+
+<div class="container">
+    <div class=" col-md-12 col-sm-12 col-xs-12 header">
+        <div class="col-xs-6"><p>1-8 of 2,470.50 results for <span class="pen">"pen"</span></p></div>
+        <div class="col-xs-6 "><p class="pull-right">Choose a Department To Sort <span class="caret"></span></p></div>
+    </div>
+    <div class=" col-md-12 col-sm-12 col-xs-12 main">
+        <div class=" col-md-4 col-sm-4 col-xs-4 list">
+            <h4 class="lightGrey">Show results for</h4>
+            <ul class="list-group">
+                <li><b>Office Products <span class="glyphicon glyphicon-chevron-right"></span></b></li>
+                <ul class="pen_details">
+                    <li>Rolled pens</li>
+                    <li>Pens & Pen Refills</li>
+                    <li>Ballpoint Pens</li>
+                    <li>Caligraphy Pens</li>
+                    <li>Ink Pen Refills</li>
+                    <li>Roller Pens</li>
+                    <li>Purcus-Point Pens</li>
+                </ul>
+            </ul>
+
+
+            <ul class="list-group">
+                <li><b>Health and Personal Care <span class="glyphicon glyphicon-chevron-right"></span></b></li>
+                <ul class="pen_details">
+                    <li>Fine Writing Instruments</li>
+                </ul>
+            </ul>
+
+
+            <ul class="list-group">
+                <li><b>Arts,Crafts and Sewing <span class="glyphicon glyphicon-chevron-right"></span></b></li>
+                <ul class="pen_details">
+                    <li>Drawing pens</li>
+                </ul>
+            </ul>
+
+
+            <ul class="list-group">
+                <li><b>Sports and Outdoors <span class="glyphicon glyphicon-chevron-right"></span></b></li>
+                <ul class="pen_details">
+                    <li>Tactical and Duty equipment</li>
+                    <li>Tactical knives</li>
+                    <li>campaign Safety&Survival Euipment</li>
+                </ul>
+            </ul>
+
+            <ul class="list-group">
+                <li><b>Industrial And Scientific <span class="glyphicon glyphicon-chevron-right"></span></b></li>
+                <ul class="pen_details">
+                    <li>Science Education and Supplies</li>
+                </ul>
+            </ul>
+            <ul class="list-group"><li><b>+ See All 32 Departments</b></li></ul>
+        </div>
+
+
+        <div class=" purchased_details">
+
+            <div class=" col-md-2 col-sm-2 col-xs-2">
+                <img src="img/pen.jpg" width="100px" ;height="100px">
+            </div>
+            <div class=" col-md-10 col-sm-10 col-xs-10">
+                <h5 class="lightGrey mbt0">You purchased this item</h5>
+                <p class="title mbt0">Fisher Space Telescoping pen(TLP)</p>
+                <p class="price">$28.37</p>
+            </div>
+
+        </div>
+
+        <div class=" purchased_details2">
+            <div class="col-md-2 col-sm-2 col-xs-2">
+                <img src="img/sarasaGel.jpg" width="100px" ;height="100px">
+            </div>
+            <div class="col-md-10 col-sm-10 col-xs-10">
+                <h5 class="darkGrey">Save 15% off on sarasa pens and gel pens</h5>
+                <h5>Need to restock on pens? Add sarasa pens to your collections which writes smoothly.eave vivid lines and won't smudge.</h5>
+            </div>
+        </div>
+
+
+        <div class="search_pen">
+            <div class="row1">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <p class="searches">Related Searches: <a href="#">Fountain pens</a>,<a href="3">Parker pens</a>,<a
+                                href="">Pencil</a></p>
+                        <div class="col-xs-12 details"  ng-repeat="item in dealList" ng-click="productDetails($index)">
+                            <div class="col-md-2 col-sm-2 col-xs-2">
+                                <img src={{item.penImage}} width="100px" height="150px">
+                            </div>
+
+                            <div class="col-md-10 col-sm-10 col-xs-10">
+                                <p><span class="title">{{item.name}}</span> by BIC</p>
+
+
+                                <div class=" col-md-5 col-sm-5 col-xs-5">
+                                    <span class="price"><span class="lightGrey">$4.00</span>{{item.price}}</span><br>
+                                    <p>{{item.expectedDelivery}}</p>
+
+                                    <div><b>More Buying Choices</b></div>
+                                    <span class="price">$0.01</span><span> <span class="title">new</span> (54 offers)</span><br>
+                                    <span class="price">$0.01 </span><span> <span class="title">used</span>  (6 offers)</span>
+                                </div>
+                                <div class="col-md-5 col-sm-5 col-xs-5 stars">
+                                    <p><a href="#"> <span class="glyphicon  glyphicon-star"></span></a>
+                                        <a href="#"> <span class="glyphicon glyphicon-star"></span></a>
+                                        <a href="#"> <span class="glyphicon glyphicon-star"></span></a>
+                                        <a href="#"> <span class="glyphicon glyphicon-star"></span></a>
+                                        <a href="#"> <span class="glyphicon glyphicon-star"></span></a>
+                                        <span>({{item.expectedDelivery}})</span>
+                                    </p>
+
+                                    <p><span class="orangeBg">Best Seller</span> in <a>Roller ball pens</a></p>
+                                    <span>Product Features</span><br>
+                                    <span><i>#1 Selling Ball Pen</i></span><br>
+                                    <p><span class="features">Office Products:</span><span>See at 200,431</span></p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</div>

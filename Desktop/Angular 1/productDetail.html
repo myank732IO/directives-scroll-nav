@@ -1,0 +1,216 @@
+
+<div class="container-fluid">
+    <div class="col-md-12 col-sm-12 col-xs-12 main_logohead">
+        <div class="col-md-1 clogo">
+            LOGO
+        </div>
+        <div class="col-md-8">
+            <ul class="header_list">
+                <li><a>Today's Deal</a></li>
+                <li><a>Gift Cards</a></li>
+                <li><a>Sell</a></li>
+                <li><a>Help</a></li>
+            </ul>
+        </div>
+        <div class="col-md-2">
+            <img src="img/lysol.gif">
+            <span class="sponsored_lysol">Sponsored by lysol</span>
+        </div>
+        <div class="col-md-1">
+            <span class="glyphicon glyphicon-chevron-right"></span>Shop now
+        </div>
+
+
+    <div class="col-md-12 col-sm-12 col-xs-12 search_products">
+        <div class="col-md-2">
+            <span>Shop by</span>
+            <p>Department <span class="caret"></span></p>
+        </div>
+        <div class="col-md-6">
+            <span class="pull-left search">Search</span>
+            <div class="input-group">
+                <div class="input-group-btn search-panel">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        <span id="search_concept">All</span> <span class="caret"></span>
+                    </button>
+                </div>
+                <input type="hidden" name="search_param" value="all" id="search_param">
+                <input type="text" class="form-control" name="x" placeholder="Search term...">
+                  <span class="input-group-btn">
+                  <button class="btn btn-default" type="button">Go</button>
+                  </span>
+            </div>
+        </div>
+        <div class="col-md-2">
+            Hello. Sign in
+        </div>
+
+        <div class="col-md-1">
+            <span aria-hidden="true" class="glyphicon glyphicon-shopping-cart"></span> <span>Cart<span class="caret"></span></span>
+        </div>
+        <div class="col-md-1">
+            <span>Wish</span>
+            <p>List <span class="caret"></span></p>
+        </div>
+    </div>
+    <div class="col-md-12 main_productlist">
+        <ul class="product_menu">
+            <li>Office&School Supplies</li>
+            <li>Printers&ink</li>
+            <li>Office Electronics</li>
+            <li>Pen&Writing</li>
+            <li>School Supplies</li>
+            <li>Notes&Paper</li>
+            <li>Office Organization</li>
+            <li>Shipping&Moving</li>
+            <li>Deals</li>
+            <li>All Electroincs</li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <ul class="product_submenu">
+            <li>Office Products</li><span class="glyphicon glyphicon-chevron-right submenu_chevron"></span>
+            <li>Office&School Supplies</li><span class="glyphicon glyphicon-chevron-right submenu_chevron"></span>
+            <li>Writing&Correction Supplies</li><span class="glyphicon glyphicon-chevron-right submenu_chevron"></span>
+            <li>Pens&Refills</li><span class="glyphicon glyphicon-chevron-right submenu_chevron"></span>
+            <li>BallPoint Pens</li><span class="glyphicon glyphicon-chevron-right submenu_chevron"></span>
+        </ul>
+    </div>
+</div>
+
+    <div class="col-md-12 mt20">
+        <div class="col-md-10 bb">
+        <div class="col-md-4">
+            <img src={{product.penImage}} width="300" height="300" style="margin-bottom: 100px;"><br>
+            <div style="text-align:center; color:#999;"><b>Roll Over Image to Zoom In</b></div>
+        </div>
+        <div class="col-md-8">
+            <div class="titleSection">
+                <h1>
+                    <span class="productTitle">{{product.name}}</span>
+                    <span class="productTitle">By BIC</span>
+                </h1>
+            </div>
+
+                <div class="feature">
+                    <span><i class="a-icon a-icon-star a-star-4-5"></i></span>
+                    <span class="blue">3 customer reviews</span>
+               </div>
+                <div id="price" class="a-spacing-small">
+
+                    <table class="a-lineitem">
+                       <tbody>
+                        <tr class="priceRow">
+                            <td class="textRight">
+                               <span>List Price: </span>
+                            </td>
+                            <td class="textLeft">
+                                <span> $4.08</span>
+                            </td>
+                        </tr>
+                        <tr class="priceRow">
+                            <td class="textRight">
+                                <span>Price :</span>
+                            </td>
+                            <td class="textLeft">
+                                <span> $1.99 &FREE Shopping on orders over 35$.Details</span>
+                            </td>
+                        </tr>
+                        <tr class="priceRow">
+                            <td class="textRight">
+                                <span>You Save :</span>
+                            </td>
+                            <td class="textLeft">
+                                <span> $2.09(51%)</span>
+                            </td>
+                        </tr>
+                        </tbody></table>
+                </div>
+
+                <div>
+                    <span class="greenColor">In Stock</span>
+                    <p>Ship sold from Amazon.com Gift Wrap available</p>
+                    <p><b>Want it tommorrow,Aug 28?</b> Order within 45 mins and choose <b>One -Day Shopping</b> at checkout Details</p>
+                    <p>Color:<b>{{product.inkColor}}</b></p>
+                </div>
+
+
+                <div class="col-md-12">
+                    <ul>
+
+                        <li><span class="a-list-item"> Writes 40% longer on average than the leading competitor</span></li>
+
+                        <li><span class="a-list-item"> No.1 Selling Ball Pen</span></li>
+
+                        <li><span class="a-list-item"> Writes First Time, Every Time!</span></li>
+
+                        <li><span class="a-list-item"> Frosted cap and translucent barrel for visible ink supply</span></li>
+
+                        <li><span class="a-list-item"> Flexible round barrel for writing comfort</span></li>
+
+                    </ul>
+                </div>
+
+            <div class="used">
+                <span><span class="blueColor">55 new</span> from $0.01</span> <span><span class="orange">6 used</span> from $0.01</span>
+            </div>
+
+            <div class="col-md-12">
+                <img  class="pull-left" src={{product.penImage}} width="100" height="100">
+                <div class=" col-m-8">
+                    <h4>Top Back to Schools Deals</h4>
+                    <p>Check out our Topm deals on pen pencils,markers,calculators,printers and more.Shop Now</p>
+                </div>
+            </div>
+
+
+
+
+        </div>
+        </div>
+        <div class="col-md-2">
+            <div>
+                <span><a href="#">Share</a> </span>
+                <i class="a-icon icon-share-email"></i>
+                <i class="a-icon icon-facebook"></i>
+                <i class="a-icon icon-share-twitter"></i>
+                <i class="a-icon icon-share-pinterest"></i>
+            </div>
+                <div class="a-box">
+                            <div class="a-box-inner">
+                            <span class="pull-left">QTY:</span> <input type="number" style="width: 30%;float: left;"><br>
+                                <span class="pull-left"><input type="checkbox">yes I want <b>Free Two- Way</b></span>
+                                <div class="a-button-stack">
+                                    <span>
+                                        <span class="a-button-inner">
+                                            <i class="a-icon a-icon-cart"></i>
+                                            <span class="a-button-text" aria-hidden="true">Add to Cart</span>
+                                        </span>
+                                    </span>
+                                </div>
+                                <hr>
+                                <hr>
+
+                                <div><span>Sign in to turn click on 1- click ordering</span></div>
+                                <div>
+                                    <input type="button" class="btn btn-default" value="Add to WatchList">
+                                </div>
+                            </div>
+                </div>
+
+
+            <div class="a-box mt20">
+                <div class="a-box-inner">
+                <h5><b>Other sellers on Amazon</b></h5>
+                <div>
+                    <div><span>$1.98</span> <span class="pull-right"><input type="button" class="addtoCart" value="Add to Cart"> </span></div>
+
+                    <span class="col-md-12" style="padding: 0">+Free Shipping</span>
+                    <p><span>Sold by:</span> increadideals</p>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
